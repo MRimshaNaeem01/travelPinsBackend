@@ -18,8 +18,7 @@ mongoose.connect(process.env.MONGOURL)
     });
 
 const corsOptions = {
-    origin: 'travel-pins-frontend.vercel.app',
-    
+    origin: 'http://localhost:3000',
 };
 app.use(cors(corsOptions));
 
