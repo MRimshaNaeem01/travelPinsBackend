@@ -27,6 +27,6 @@ app.use("/api/pins", pinRoute);
 app.use("/api/user", userRoute);
 
 
-app.listen(proces.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("Bacekdn server is runing")
 })
